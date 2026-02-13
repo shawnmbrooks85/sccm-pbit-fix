@@ -116,6 +116,11 @@ A `.pbit` file is a ZIP archive:
 
 Never extract and re-zip a `.pbit` file using `Compress-Archive` or `ZipFile.CreateFromDirectory` on Windows. These tools create **backslash** paths (`Report\Layout`) but Power BI requires **forward slashes** (`Report/Layout`). Always modify entries **in-place** using `ZipArchiveMode.Update`.
 
+## Tested Environment
+
+- **Power BI Report Server** — January 2026
+- **Power BI Desktop (optimized for Report Server)** — 2026
+
 ## Tested Templates
 
 | Template | Fix Script | Status |
