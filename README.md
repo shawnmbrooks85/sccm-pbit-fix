@@ -125,9 +125,9 @@ Never extract and re-zip a `.pbit` file using `Compress-Archive` or `ZipFile.Cre
 |----------|-----------|--------|
 | Client Status | `Fix-PbitTemplate.ps1` | ✅ |
 | Content Status | `Fix-ContentStatusPbit.ps1` | ✅ |
-| Microsoft Edge Management | `Fix-PbitTemplate.ps1` | Not yet tested |
-| Software Update Compliance Status | `Fix-PbitTemplate.ps1` | Not yet tested |
-| Software Update Deployment Status | `Fix-PbitTemplate.ps1` | Not yet tested |
+| Microsoft Edge Management | `Fix-PbitTemplate.ps1` | ✅ |
+| Software Update Compliance Status | `Fix-PbitTemplate.ps1` | ✅ |
+| Software Update Deployment Status | `Fix-PbitTemplate.ps1` | ✅ |
 
 ## License
 
