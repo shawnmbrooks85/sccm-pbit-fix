@@ -24,12 +24,9 @@ Additionally, some templates have data model constraints (`isNullable=false`, in
 
 - **Power BI Desktop optimized for Report Server** (for opening fixed templates)
 - **PowerShell 5.1+** (included with Windows)
-- **SCCM/ConfigMgr Power BI templates** (`.pbit` files from your SCCM installation)
-
-Templates are typically located at:
-```
-<SCCM Install Dir>\tools\ServerReportingService\Templates\
-```
+- **SCCM/ConfigMgr Power BI templates** (`.pbit` files) — download from Microsoft:
+  - **[Microsoft Endpoint Configuration Manager Sample Power BI Reports](https://www.microsoft.com/en-us/download/details.aspx?id=101452)**
+  - Or from your SCCM installation: `<SCCM Install Dir>\tools\ServerReportingService\Templates\`
 
 ## Quick Start
 
