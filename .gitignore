@@ -1,0 +1,12 @@
+# Backup files created by the scripts
+*.backup
+
+# PBIT templates (copyrighted by Microsoft, not for redistribution)
+*.pbit
+*.pbix
+
+# Editor/OS artifacts
+*.swp
+*~
+Thumbs.db
+desktop.ini
